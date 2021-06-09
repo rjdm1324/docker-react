@@ -15,7 +15,7 @@ docker build -t $(YOUR_DORCKER_HUB_ID)/react-docker .
 
 ### Docker run
 ```
-docker run -p 3001:3000 $(YOUR_DORCKER_HUB_ID)/tabtab
+docker run -p 3001:3000 $(YOUR_DORCKER_HUB_ID)/react-docker
 ```
 Now the server is available at http://localhost/3001.
 <br/>
