@@ -1,0 +1,11 @@
+
+sudo: required
+language: generic 
+
+services:
+  - docker
+
+script:
+  - docker-compose up
+after_success:
+  - echo "Test Success"
