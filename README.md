@@ -4,7 +4,9 @@
 
 ## How to run
 ----
-docker-compose up
+TextBox에 글을 입력 후 도움 받기 버튼을 통해 그 뒤에 이어질 문장을 도움 받을 수 있습니다.
+sample list에서 문장 클릭을 통해 쉽게 textbox로 입력 할 수 있습니다.
+이어질 문장의 sample 수 와 문장의 단어 수는 counter를 통해 설정 할 수 있습니다.
 
 ### Docker build
 ```
